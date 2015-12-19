@@ -392,6 +392,12 @@
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0001003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -414,12 +420,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
@@ -482,12 +482,6 @@
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0001003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000007"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -510,6 +504,12 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A judgement about function assay wherein a patient rates their difficulty standing for a prolonged period of time.</obo:IAO_0000115>
@@ -744,6 +744,12 @@
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0001004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -766,12 +772,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
@@ -834,12 +834,6 @@
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0001004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -862,6 +856,12 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -924,6 +924,12 @@
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0001005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -948,12 +954,6 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000115>A judgement about function assay wherein a patient rates limitation with their bowel continence.</obo:IAO_0000115>
@@ -967,6 +967,12 @@
     <owl:Class rdf:about="&obo;MSPD_0000025">
         <rdfs:label>bladder continence assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0001005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
@@ -993,12 +999,6 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000019"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000115>A judgement about function assay wherein a patient rates limitation with their bladder continence.</obo:IAO_0000115>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
@@ -1012,6 +1012,12 @@
     <owl:Class rdf:about="&obo;MSPD_0000026">
         <rdfs:label>fatigability assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
@@ -1036,12 +1042,6 @@
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -1396,6 +1396,12 @@ This datum essentially represents a judgement the patient makes about their visu
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000040"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1418,12 +1424,6 @@ This datum essentially represents a judgement the patient makes about their visu
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116>coordination</obo:IAO_0000116>
@@ -1579,12 +1579,6 @@ This datum essentially represents a judgement the patient makes about their visu
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000040"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000041"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1607,6 +1601,12 @@ This datum essentially represents a judgement the patient makes about their visu
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A functional rating assay wherein a clinician rates the visual functioning of a patient.</obo:IAO_0000115>
@@ -1740,12 +1740,6 @@ This datum essentially represents a judgement the patient makes about their visu
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000039"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000053"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1758,6 +1752,12 @@ This datum essentially represents a judgement the patient makes about their visu
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
@@ -1775,6 +1775,12 @@ This datum essentially represents a judgement the patient makes about their visu
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000039"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1787,12 +1793,6 @@ This datum essentially represents a judgement the patient makes about their visu
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
@@ -1810,12 +1810,6 @@ This datum essentially represents a judgement the patient makes about their visu
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000039"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1828,6 +1822,12 @@ This datum essentially represents a judgement the patient makes about their visu
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
@@ -1845,6 +1845,12 @@ This datum essentially represents a judgement the patient makes about their visu
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000039"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:allValuesFrom>
                     <owl:Class>
@@ -1855,12 +1861,6 @@ This datum essentially represents a judgement the patient makes about their visu
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A clinician reported assay wherein a clinician</obo:IAO_0000115>
@@ -1876,6 +1876,12 @@ This datum essentially represents a judgement the patient makes about their visu
     <owl:Class rdf:about="&obo;MSPD_0000055">
         <rdfs:label>time to walk 25 feet assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
@@ -1902,12 +1908,6 @@ This datum essentially represents a judgement the patient makes about their visu
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000115>A clinician reported assay wherein a clinician records the time in seconds it takes for a patient to walk 25 feet.</obo:IAO_0000115>
@@ -1923,12 +1923,6 @@ This datum essentially represents a judgement the patient makes about their visu
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000039"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1941,6 +1935,12 @@ This datum essentially represents a judgement the patient makes about their visu
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A clinician reported assay wherein a clinician indicates the level of assistance a patient has (no assistance, one person, two persons, or unable to perform) for the timed amulation assay. </obo:IAO_0000115>
@@ -2026,6 +2026,12 @@ This datum essentially represents a judgement the patient makes about their visu
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000039"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -2048,12 +2054,6 @@ This datum essentially represents a judgement the patient makes about their visu
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A clinician reported assay wherein a clinician records records the time in seconds it takes for a patient to complete the 9-hole peg test with their right hand.</obo:IAO_0000115>
@@ -2151,12 +2151,6 @@ This datum essentially represents a judgement the patient makes about their visu
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000039"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000053"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -2169,6 +2163,12 @@ This datum essentially represents a judgement the patient makes about their visu
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
@@ -2186,12 +2186,6 @@ This datum essentially represents a judgement the patient makes about their visu
         <rdfs:subClassOf rdf:resource="&obo;MSPD_0000039"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000053"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -2204,6 +2198,12 @@ This datum essentially represents a judgement the patient makes about their visu
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="&obo;MSPD_0000053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -2631,7 +2631,7 @@ Not currently being used.</obo:IAO_0000116>
 
     <owl:Class rdf:about="&obo;MSPD_0002024">
         <rdfs:label>conclusion sensory functioning limited</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
+        <rdfs:subClassOf rdf:resource="&obo;MSPD_0002080"/>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000115>A conclusion that some report about a patient&apos;s sensory functioning exceeds a threshold.</obo:IAO_0000115>
@@ -2663,7 +2663,7 @@ Not currently being used.</obo:IAO_0000116>
 
     <owl:Class rdf:about="&obo;MSPD_0002026">
         <rdfs:label>conclusion motor functioning limited</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
+        <rdfs:subClassOf rdf:resource="&obo;MSPD_0002080"/>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <obo:IAO_0000115>A conclusion that some report about a patient&apos;s motor functioning excceds a threshold.</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -2821,7 +2821,7 @@ Not currently being used.</obo:IAO_0000116>
 
     <owl:Class rdf:about="&obo;MSPD_0002035">
         <rdfs:label>conclusion cerebral functioning impaired</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
+        <rdfs:subClassOf rdf:resource="&obo;MSPD_0002080"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000124"/>
@@ -2948,7 +2948,7 @@ Not currently being used.</obo:IAO_0000116>
 
     <owl:Class rdf:about="&obo;MSPD_0002042">
         <rdfs:label>conclusion autonomic nervous system functioning limited</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
+        <rdfs:subClassOf rdf:resource="&obo;MSPD_0002080"/>
         <obo:IAO_0000115>A conclusion that some report about a patient&apos;s autonomic nervous system functioning exceeds a threshold.</obo:IAO_0000115>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -2999,7 +2999,7 @@ Not currently being used.</obo:IAO_0000116>
 
     <owl:Class rdf:about="&obo;MSPD_0002045">
         <rdfs:label>conclusion affective functioning limiting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
+        <rdfs:subClassOf rdf:resource="&obo;MSPD_0002080"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000124"/>
@@ -3168,7 +3168,7 @@ Not currently being used.</obo:IAO_0000116>
 
     <owl:Class rdf:about="&obo;MSPD_0002055">
         <rdfs:label>conclusion fatigue limiting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
+        <rdfs:subClassOf rdf:resource="&obo;MSPD_0002080"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000124"/>
@@ -3583,7 +3583,7 @@ Not currently being used.</obo:IAO_0000116>
 
     <owl:Class rdf:about="&obo;MSPD_0002078">
         <rdfs:label>conclusion neurological functioning impaired</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
+        <rdfs:subClassOf rdf:resource="&obo;MSPD_0002080"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000124"/>
@@ -3615,8 +3615,12 @@ Not currently being used.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/MSPD_0002080 -->
 
     <owl:Class rdf:about="&obo;MSPD_0002080">
-        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
-        <obo:IAO_0000115>TO DO</obo:IAO_0000115>
+        <rdfs:label>conclusion threshold value met</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion based on data that indicates a value associated with a data item meets or exceeds some threshold value.</obo:IAO_0000115>
+        <obo:IAO_0000116>TO DO: Add necessary condition that instances of this class have (are determined by) some threshold value.</obo:IAO_0000116>
+        <rdfs:comment>By themselves, instances of this class are limited to the recording of the fact the value of some data item meets or exceeds a threshold value. The further interpretation that, say, a patient is obese or not suffering from cognitive impairment, are instances of separate types of conclusions.</rdfs:comment>
+        <obo:IAO_0000112>The conclusion that a patient&apos;s BMI is 30 or greater. The conclusion that a MMSE score is over 24.</obo:IAO_0000112>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
     </owl:Class>

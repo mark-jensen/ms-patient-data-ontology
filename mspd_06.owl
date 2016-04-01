@@ -4792,6 +4792,158 @@ Not currently being used.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002143">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MSPD_0002074"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002110"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>high patient autonomic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002144">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MSPD_0002052"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002110"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>high patient report</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002145">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MSPD_0002052"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002104"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>moderate patient report</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002146">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MSPD_0002074"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002104"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>moderate patient autonomic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002147">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MSPD_0002069"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002110"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>high patient motor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002148">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MSPD_0002069"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002104"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>moderate patient motor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002149">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MSPD_0002067"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002104"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>moderate patient sensory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002150">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MSPD_0002067"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002110"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>high patient sensory</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MSPD_0003000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0003000">

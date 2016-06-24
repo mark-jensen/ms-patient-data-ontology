@@ -2702,18 +2702,18 @@ Not currently being used.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/MSPD_0002027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002072"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002172"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002066"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002110"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>A conclusion that some patient&apos;s EDSS functional score for pyramidal functioning exceeds a threshold.</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
-        <rdfs:label>impaired pyramidal functioning</rdfs:label>
+        <rdfs:label>high impaired pyramidal functioning</rdfs:label>
     </owl:Class>
     
 
@@ -2721,18 +2721,18 @@ Not currently being used.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/MSPD_0002028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002072"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002171"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002066"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002110"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>A conclusion that some patient&apos;s EDSS functional score for cerebellar functioning exceeds a threshold.</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
-        <rdfs:label>impaired cerebellar functioning</rdfs:label>
+        <rdfs:label>high impaired cerebellar functioning</rdfs:label>
     </owl:Class>
     
 
@@ -2815,18 +2815,18 @@ Not currently being used.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/MSPD_0002035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002080"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002169"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002066"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002110"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>A conclusion that some patient&apos;s EDSS functional score for cerbral functioning exceeds a threshold.</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
-        <rdfs:label>impaired cerebral functioning</rdfs:label>
+        <rdfs:label>high impaired cerebral functioning</rdfs:label>
     </owl:Class>
     
 
@@ -3472,6 +3472,12 @@ Not currently being used.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>A conclusion based on clinician data that is also a conclusion motor functioning limited.</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
@@ -3584,18 +3590,18 @@ Not currently being used.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/MSPD_0002078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002080"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002168"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002066"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002110"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>A conclusion based on data that some patient&apos;s EDSS score exceeds a threshold.</obo:IAO_0000115>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
-        <rdfs:label>EDSS score exceeds threshold</rdfs:label>
+        <rdfs:label>EDSS score high threshold</rdfs:label>
     </owl:Class>
     
 
@@ -5047,9 +5053,17 @@ Not currently being used.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/MSPD_0002160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002172"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
         <obo:IAO_0000119>TO DO</obo:IAO_0000119>
+        <rdfs:label>moderate impaired pyramidal functioning</rdfs:label>
     </owl:Class>
     
 
@@ -5136,6 +5150,160 @@ Not currently being used.</obo:IAO_0000116>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:label>high clinician autonomic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002171"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
+        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
+        <rdfs:label>moderate impaired cerebellar functioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002168"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
+        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
+        <rdfs:label>EDSS score moderate range</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
+        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
+        <rdfs:label>EDSS score within range</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
+        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
+        <rdfs:label>impaired cerebral functioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002169"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
+        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
+        <rdfs:label>moderate impaired cerebral functioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002072"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A conclusion that some patient&apos;s EDSS functional score for cerebellar functioning exceeds a threshold.</obo:IAO_0000115>
+        <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
+        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
+        <rdfs:label>impaired cerebellar functioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002072"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A conclusion that some patient&apos;s EDSS functional score for cerebellar functioning exceeds a threshold.</obo:IAO_0000115>
+        <obo:IAO_0000117>Mark Jensen</obo:IAO_0000117>
+        <obo:IAO_0000119>TO DO</obo:IAO_0000119>
+        <rdfs:label>impaired pyramidal functioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002173">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MSPD_0002072"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002110"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>high clinician motor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MSPD_0002174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MSPD_0002174">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MSPD_0002072"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0001938"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MSPD_0002104"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>moderate clinician motor</rdfs:label>
     </owl:Class>
     
 
